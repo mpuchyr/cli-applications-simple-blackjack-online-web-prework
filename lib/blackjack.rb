@@ -3,7 +3,8 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  card = 
+  card
 end
 
 def display_card_total
