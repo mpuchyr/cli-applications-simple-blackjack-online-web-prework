@@ -42,9 +42,6 @@ def hit?(card_total)
     hit?
   end
 
-end
-
-  
   card_total
 end
 
