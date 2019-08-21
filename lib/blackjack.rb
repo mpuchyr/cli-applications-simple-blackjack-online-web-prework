@@ -55,7 +55,11 @@ end
 #####################################################
 
 def runner
-  welcome
-  initial_round
+  card_total = 0
+  until card_total > 21 do
+    welcome
+    card_total = initial_round
+    end_game(card_total)
+  end
 end
     
